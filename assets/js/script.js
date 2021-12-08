@@ -39,6 +39,7 @@ let flipTailPercent = 0;
     if (flippedCoin == 1){
         const message = document.querySelector('.messageBox');
         message.style.color ='orange';
+        message.style.fontSize = 'xx-large';
         message.textContent = "You flipped heads";
         
 
@@ -54,6 +55,7 @@ let flipTailPercent = 0;
 
         message.textContent = "You flipped tails";
         message.style.color ='orange';
+        message.style.fontSize = 'xx-large';
         document.getElementById('penny-heads').src='assets/images/penny-tails.jpg'
 
         flipTail++;
